@@ -55,11 +55,11 @@ async function MyForm() {
       email.style.border = "none";
     }
 
-    if (!isValidPhone(phone.value)) {
-      phone.style.border = "1px solid red";
-    } else {
-      phone.style.border = "none";
-    }
+    // if (!isValidPhone(phone.value)) {
+    //   phone.style.border = "1px solid red";
+    // } else {
+    //   phone.style.border = "none";
+    // }
 
     if (!message.value) {
       message.style.border = "1px solid red";

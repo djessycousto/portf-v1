@@ -27,11 +27,11 @@ const sendEmail = async (req, res) => {
       debug: true, // Enable debugging
     });
 
-    const ccRecipient = `${fname} <${email}>`; // Assuming fname and email are variables from user input
+    // const ccRecipient = `${fname} <${email}>`; // Assuming fname and email are variables from user input
 
     let info = await transporter.sendMail({
       from: "me@jessycousto.co.uk",
-      cc: [ccRecipient], // Add CC recipients here
+      // cc: "", // Add CC recipients here
       to: "me@jessycousto.co.uk",
       //   subject: "email from me ",
 
